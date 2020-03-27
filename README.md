@@ -14,5 +14,5 @@ Note: This repo is meant to help with learning how to test on Android. While som
 ## Helpful Tips
 * Unit Tests are found in the directory `MomAndPopShop/app/sorce/test`.
 * Each lesson should have everything you need. The lesson page will say otherwise if necessary.
-* To run a test, open the test file. The green arrow beside the class name will run all tests. The green arrow beside the test name will only run that test
-* http://d.android.com/tools/testing has some good information
+* To run a test, open the test file. The green arrow beside the class name will run all tests. The green arrow beside the test name will only run that test.
+* http://d.android.com/tools/testing has some good information.
