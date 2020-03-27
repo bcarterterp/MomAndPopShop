@@ -8,7 +8,10 @@ Note: This repo is meant to help with learning how to test on Android. While som
 ### Prerequisites
 * Android Studio with this repo pulled down
 * Some familiarity with writing code
-* Some knowledge of the ANdroid Framework (or at lease someone to guide you)
+* Some knowledge of the Android Framework (or at lease someone to guide you)
+
+### Lessons
+[Lesson 1 - Basic Unit Tests](https://github.com/bcarterterp/MomAndPopShop/wiki/Lesson-1---Basic-Unit-Tests)
 
 
 ## Helpful Tips
