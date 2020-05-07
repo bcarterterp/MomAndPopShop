@@ -18,6 +18,7 @@ sealed class Item(val name: String, val cost: Int, val category: Category) {
 
 
     object Eggs : Item("Granny Smith Apple", 1, Category.FOOD)
+    object Doughnuts : Item("Krispy Kreme", 5, Category.FOOD)
     object Bread : Item("Potato Bread", 2, Category.FOOD)
     object DogTreat : Item("Puppy Snax", 1, Category.PET_SUPPLIES)
     object DogCollar : Item("Dog Collar", 2, Category.PET_SUPPLIES)

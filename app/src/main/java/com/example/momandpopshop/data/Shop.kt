@@ -1,12 +1,16 @@
 package com.example.momandpopshop.data
 
-class Shop {
+class Shop(private val warehouse: Warehouse) {
 
     var storeItems: Map<Item, Int> = emptyMap()
         private set
 
     fun stockItems(numOfEachItem: Int) {
-        storeItems = Item.singleList.map { it to numOfEachItem }.toMap()
+        storeItems = warehouse.getRestock(numOfEachItem)
+    }
+
+    fun stockNewItem(item: Item, stockCount: Int) {
+        storeItems = storeItems.plus(warehouse.orderNewProduct(item, stockCount))
     }
 
     fun buyItem(item: Item, shopper: Shopper): Boolean {
