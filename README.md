@@ -6,9 +6,9 @@
 Note: This repo is meant to help with learning how to test on Android. While some people would be comfortable looking through this alone, do not feel bad about reaching out to someone with Android knowledge to get ramped up on the Android framework.
 
 ### Prerequisites
-* Android Studio with this repo pulled down
-* Some familiarity with writing code
+* Basics of Object Oriented Programming
 * Some knowledge of the Android Framework (or at lease someone to guide you)
+* Android Studio with this repo pulled down
 
 ### Lessons
 [Lesson 1 - Basic Unit Tests](https://github.com/bcarterterp/MomAndPopShop/wiki/Lesson-1---Basic-Unit-Tests)
@@ -19,3 +19,4 @@ Note: This repo is meant to help with learning how to test on Android. While som
 * Each lesson should have everything you need. The lesson page will say otherwise if necessary.
 * To run a test, open the test file. The green arrow beside the class name will run all tests. The green arrow beside the test name will only run that test.
 * http://d.android.com/tools/testing has some good information.
+* For getting up to speed in coding in Kotlin - https://play.kotlinlang.org/koans/overview
